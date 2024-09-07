@@ -55,7 +55,6 @@ header ul li a {
 }
 
 .catalogo {
-    /*  background-color: rgb(171, 243, 219);*/
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -74,42 +73,11 @@ header ul li a {
     width: 450px;
 }
 
-/*
-.tips {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.tips img {
-    width: 350px;
-}
-
-.caja img {
-    border-radius: 20%;
-}
-
-.caja {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-}
-*/
 /*Inicio de slides*/
 .slide {
     width: 40%;
     align-content: center;
-
-    /*box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);*/
     margin: 30px 40px 40px 40px;
-    /*
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start; */
 }
 
 .slide-inner {
@@ -242,7 +210,6 @@ header ul li a {
 /*Fin de slides*/
 
 .comprar {
-    /*background-color: rgb(171, 243, 219);*/
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -271,7 +238,6 @@ header ul li a {
 }
 
 .contacto {
-    /* background-color: rgb(171, 243, 219);*/
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -346,7 +312,6 @@ main {
     }
 
     nav {
-        /*background-color: white;*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -383,7 +348,6 @@ main {
         width: 100%;
         align-items: center;
         justify-content: center;
-        /*padding: 20px;*/
     }
 
     .catalogo p {
@@ -397,42 +361,10 @@ main {
         width: 100%;
     }
 
-    /*
-    .tips {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        width: 95%;
-        justify-content: space-between;
-    }
-
-    .tips img {
-        width: 180px;
-    }
-
-    .caja img {
-        border-radius: 20%;
-    }
-
-    .caja {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-    */
     .slide {
         width: 40%;
         align-content: center;
-
-        /*box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);*/
         margin: 30px 40px 40px 40px;
-        /*
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start; */
     }
 
     .slide-inner {

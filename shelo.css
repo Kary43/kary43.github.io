@@ -1,0 +1,159 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #16b4f1;
+    width: 100%;
+}
+nav{
+    position: relative;
+    display: flex;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+ul li a{
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+#nos{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#nos h1{
+    color: #16b4f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nos p{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+#carouselExampleIndicators {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    align-content: center;
+}
+#cat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    align-content: center;
+}
+.titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.caja {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.caja img{
+    width:35%;
+    border-radius: 15%;
+}
+#comp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    align-content: center;
+    justify-content: center;
+}
+#comp p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#comp img{
+    width: 80%;
+}
+#emp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    align-content: center;
+}
+#emp p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#emp img{
+    width: 100%;
+}
+#cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    align-content: center;
+}
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 10;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+#cont h4 {
+    display: inline;
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+#cont iframe{
+    margin: 20px;
+    width: 80%;
+}
+h1{
+    color: #16b4f1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
